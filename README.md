@@ -33,3 +33,4 @@ fn main() {
 
 8. If the cargo project runs succesfully , then just open the [Link](https://localhost:8000) in any browser and the output will be displayed on the webpage.
 ## OUTPUT
+![Untitled](https://user-images.githubusercontent.com/53641559/87393811-59dedf00-c5cc-11ea-80ef-a9a37e912b21.png)
