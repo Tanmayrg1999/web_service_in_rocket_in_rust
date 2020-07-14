@@ -18,7 +18,7 @@ rocket = "0.4.5"
 
 fn index() -> &'static str {
 
-    "Hello, world!"
+    "Hello, world! My name is Tanmay"
     
 }
 
