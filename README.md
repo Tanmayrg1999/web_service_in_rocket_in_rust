@@ -6,10 +6,10 @@ Rocket is a web framework for Rust. It is used to design Web applications in the
 3. After installing the nightly version we will create a new binary-based Cargo project using the command -> **cargo new tanmay --bin**
 4. Then we need to move our action to the created directory using the -> **cd tanmay**
 5. Now a cargo.toml file would be created by default we need to add:
-*[dependencies]
-rocket = "0.4.5"*
+[dependencies]
+rocket = "0.4.5"
 6.  Now we need to add to the main.rs:
-*
+
 #![feature(proc_macro_hygiene, decl_macro)]
 
 #[macro_use] extern crate rocket;
@@ -27,6 +27,9 @@ fn main() {
     rocket::ignite().mount("/", routes![index]).launch();
     
 }
-*
+
+
 7. Now go to the create cargo project and use the **cargo run**
+
 8. If the cargo project runs succesfully , then just open the [Link](https://localhost:8000) in any browser and the output will be displayed on the webpage.
+## OUTPUT
